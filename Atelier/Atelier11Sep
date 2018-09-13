@@ -1,0 +1,39 @@
+const age = [24, 28, 32, 17, 36];
+let totalAge = 0;
+for (let i = 0;i < age.length;i ++) {
+    totalAge += age[i];
+}
+let moyenneAge = totalAge / age.length 
+console.log(totalAge);
+console.log(moyenneAge);
+let ageSmall = 1000;
+let ageBig = 0;
+while (i < age.length){
+    if (ageSmall > age[i]) {
+        ageSmall === age[i];
+        i ++;
+    }
+}
+while (i < age.length) {
+    if (ageBig < age[i]){
+        ageBig === age[i];
+        i ++;
+    }
+}
+let ageDiffernce = ageBig - ageSmall ;
+console.log(ageDiffernce);
+if (ageDiffernce > 10) {
+    console.log("Vrai");
+}else{
+    console.log("faux");
+}
+}
+cont testAge = {
+    Benjamin : 24,
+    John : 17,
+};
+if (testAge.Benjamin <25 && testAge.Benjamin < 25) {
+    console.log("vrai");
+} else{console.log("faux");
+}
+let i = (ageSylvie < 35) ? "Si Sylvie a moins de 35 ans : "Il n'a personne au dessus de 35 ans" : "Si Sylvie a plus de 35 ans : "Au moins une personne a plus de 35 ans" ;
