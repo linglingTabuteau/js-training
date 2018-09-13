@@ -6,7 +6,14 @@
  * and in lowercase for the rest of the string
  *
  */
-
+// Your code :
+newstring = [];
+funcion cap(string){
+    newString [0] = string [0].upper ;
+    for (i = 1; i < string.length; i ++){
+        newString [i] = string [i].lower ;
+    }  
+}
 
 //* Begin of tests
 const assert = require('assert')
