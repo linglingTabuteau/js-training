@@ -9,6 +9,27 @@
  */
 
 // Your code :
+function multiply(nb1,nb2){
+    let sum = 0;
+    if (nb1 >= 0 && nb2 >= 0){
+        for (let i = 0 ; i < nb2;i++){
+            sum += nb1 ;
+        }
+    }else if (nb1 < 0 && nb2 < 0){
+        for (let i = 0 ; i < -nb2;i++){
+            sum += - nb1 ;
+        }
+        }else if (nb1 < 0 && nb2 > 0){
+            for (let i = 0 ; i < nb2;i++){
+                sum += nb1 ;
+            }
+        }else {
+                for (let i = 0 ; i < nb1;i++){
+                    sum += nb2;
+            }
+    } 
+    return sum;
+}
 
 //* Begin of tests
 const assert = require('assert')
