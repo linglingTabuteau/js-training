@@ -3,7 +3,7 @@ let totalAge = 0;
 for (let i = 0;i < age.length;i ++) {
     totalAge += age[i];
 }
-let moyenneAge = totalAge / age.length 
+let moyenneAge = totalAge / age.length ;
 console.log(totalAge);
 console.log(moyenneAge);
 let ageSmall = 1000;

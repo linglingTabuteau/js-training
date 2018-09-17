@@ -8,7 +8,11 @@
  */
 
 // Your code :
-
+function getLength(arrOrStr){
+    let result = 0;
+    result = arrOrStr.length;
+    return result;
+}
 //* Begin of tests
 const assert = require('assert')
 

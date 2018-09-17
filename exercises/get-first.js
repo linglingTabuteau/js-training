@@ -8,6 +8,13 @@
  */
 
 // Your code :
+function getFirst(arrorStr){
+    if (arrorStr.length > 0){
+        return arrorStr[0];
+    } else if (arrorStr.length === 0){
+        return undefined;
+    }
+}
 
 //* Begin of tests
 const assert = require('assert')
